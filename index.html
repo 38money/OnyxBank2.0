@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onyx Bank — Seu patrimônio, nossa prioridade</title>
+  <meta name="description" content="Onyx Bank: banco digital premium com zero anuidade, Pix instantâneo, investimentos exclusivos e cartão de crédito de alto padrão. Abra sua conta agora." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="logo" id="logo-link">
+        <div class="logo-icon">◆</div>
+        <span class="logo-text">ONYX BANK</span>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#features">Benefícios</a></li>
+        <li><a href="#card">Cartão</a></li>
+        <li><a href="#app">App</a></li>
+        <li><a href="#plans">Planos</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a href="#" class="btn btn-ghost">Entrar</a>
+        <a href="#" class="btn btn-primary" id="nav-cta">Abrir Conta</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="gradient-mesh"></div>
+    <div class="container hero-content">
+      <div class="hero-text fade-in">
+        <div class="badge">Exclusividade sem precedentes</div>
+        <h1 class="hero-title">
+          Seu patrimônio,<br />
+          <span class="gradient-text"><em>finalmente livre.</em></span>
+        </h1>
+        <p class="hero-subtitle">Zero tarifas. Pix em segundos. Investimentos que crescem com você. Uma experiência bancária pensada para quem exige o melhor.</p>
+        <div class="hero-ctas">
+          <a href="#" class="btn btn-primary btn-lg" id="hero-cta-main">Abrir Conta Gratuita</a>
+          <a href="#features" class="btn btn-ghost btn-lg" id="hero-cta-learn">Conhecer Benefícios</a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat"><strong>+4M</strong><span>Clientes</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><strong>4.9★</strong><span>Avaliação</span></div>
+          <div class="stat-divider"></div>
+          <div class="stat"><strong>R$0</strong><span>Anuidade</span></div>
+        </div>
+      </div>
+      <div class="hero-visual fade-in-delay">
+        <div class="floating-card-wrapper">
+          <div class="credit-card" id="hero-card">
+            <div class="card-glow"></div>
+            <div class="card-inner">
+              <div class="card-top">
+                <span class="card-bank-name">ONYX BANK</span>
+                <div class="card-chip"><div class="chip-lines"></div></div>
+              </div>
+              <div class="card-number">•••• •••• •••• 4892</div>
+              <div class="card-bottom">
+                <div class="card-holder">
+                  <span class="card-label">Titular</span>
+                  <span class="card-value">JOÃO SILVA</span>
+                </div>
+                <div class="card-expiry">
+                  <span class="card-label">Validade</span>
+                  <span class="card-value">12/29</span>
+                </div>
+                <div class="card-network">
+                  <div class="mc-circle mc-left"></div>
+                  <div class="mc-circle mc-right"></div>
+                </div>
+              </div>
+              <div class="card-contactless">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.5)" stroke-width="1.5">
+                  <path d="M6.34 17.66a8 8 0 0 1 0-11.32M9.17 14.83a4 4 0 0 1 0-5.66M12 12h.01"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="floating-pill pill-1">
+            <span class="pill-icon">⚡</span>
+            <div>
+              <strong>Pix realizado</strong>
+              <span>Agora mesmo</span>
+            </div>
+          </div>
+          <div class="floating-pill pill-2">
+            <span class="pill-icon green">◆</span>
+            <div>
+              <strong>+R$ 320,00</strong>
+              <span>Rendimento do mês</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Benefícios Exclusivos</div>
+        <span class="luxury-line"></span>
+        <h2>Tudo que você precisa,<br /><span class="gradient-text">sem pagar nada por isso</span></h2>
+        <p>Uma conta que trabalha para você — com zero cobranças escondidas e experiência impecável.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card fade-up" id="feat-1">
+          <div class="feature-icon">◻</div>
+          <h3>Cartão Sem Anuidade</h3>
+          <p>Mastercard internacional de alta categoria sem nenhuma cobrança mensal. Para sempre, sem exceção.</p>
+          <div class="feature-tag">R$ 0 para sempre</div>
+        </div>
+        <div class="feature-card fade-up" id="feat-2" style="animation-delay:0.1s">
+          <div class="feature-icon">⟳</div>
+          <h3>Pix Instantâneo</h3>
+          <p>Transferências 24 horas por dia, 7 dias por semana, incluindo feriados. Chegou em questão de segundos.</p>
+          <div class="feature-tag">24h disponível</div>
+        </div>
+        <div class="feature-card fade-up" id="feat-3" style="animation-delay:0.2s">
+          <div class="feature-icon">◈</div>
+          <h3>Investimentos Premium</h3>
+          <p>CDB exclusivos, fundos selecionados e renda variável — tudo com rentabilidade acima do mercado.</p>
+          <div class="feature-tag">Até 13% a.a.</div>
+        </div>
+        <div class="feature-card fade-up" id="feat-4" style="animation-delay:0.3s">
+          <div class="feature-icon">◉</div>
+          <h3>Controle Total</h3>
+          <p>Gestão financeira completa em tempo real. Veja, organize e decida — com um único toque no app.</p>
+          <div class="feature-tag">App 4.9 estrelas</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CREDIT CARD ===== -->
+  <section class="card-section" id="card">
+    <div class="container card-grid">
+      <div class="card-showcase fade-up">
+        <div class="showcase-card-wrapper">
+          <div class="showcase-credit-card" id="showcase-card">
+            <div class="showcase-card-bg"></div>
+            <div class="showcase-card-inner">
+              <div class="sc-top">
+                <span class="sc-bank">◆ ONYX BANK</span>
+                <div class="sc-chip"></div>
+              </div>
+              <div class="sc-number">•••• •••• •••• 4892</div>
+              <div class="sc-bottom">
+                <div class="sc-holder">
+                  <span class="sc-label">Titular</span>
+                  <span class="sc-value">JOÃO SILVA</span>
+                </div>
+                <div class="sc-expiry">
+                  <span class="sc-label">Validade</span>
+                  <span class="sc-value">12/29</span>
+                </div>
+                <div class="sc-network">
+                  <div class="sc-mc-l"></div>
+                  <div class="sc-mc-r"></div>
+                </div>
+              </div>
+              <div class="sc-tap">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1.5">
+                  <path d="M6.34 17.66a8 8 0 0 1 0-11.32M9.17 14.83a4 4 0 0 1 0-5.66M12 12h.01"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="card-glow-bg"></div>
+        </div>
+      </div>
+      <div class="card-info fade-up">
+        <div class="section-tag">Cartão Onyx Bank</div>
+        <span class="luxury-line luxury-line-left"></span>
+        <h2>O cartão que<br /><span class="gradient-text">trabalha por você</span></h2>
+        <p class="card-desc">Um cartão de crédito de nível premium, sem anuidade jamais. Aceito em mais de 150 países com tecnologia de ponta.</p>
+        <ul class="benefits-list">
+          <li><span class="check">✓</span> Zero anuidade — para sempre</li>
+          <li><span class="check">✓</span> Mastercard Platinum Internacional</li>
+          <li><span class="check">✓</span> Pagamento por aproximação (NFC)</li>
+          <li><span class="check">✓</span> Cashback em todas as compras</li>
+          <li><span class="check">✓</span> Limite cresce com seu histórico</li>
+          <li><span class="check">✓</span> Bloqueie e desbloqueie pelo app</li>
+        </ul>
+        <a href="#" class="btn btn-primary btn-lg" id="card-cta">Solicitar o meu gratuitamente</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APP SECTION ===== -->
+  <section class="app-section" id="app">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">O Aplicativo</div>
+        <span class="luxury-line"></span>
+        <h2>Sua vida financeira<br /><span class="gradient-text">na palma da mão</span></h2>
+        <p>Gestão completa, intuitiva e elegante. Controle total sobre seu dinheiro, onde quer que você esteja.</p>
+      </div>
+      <div class="app-phones fade-up">
+        <div class="phone-wrapper phone-left">
+          <div class="phone-frame">
+            <div class="phone-screen balance-screen">
+              <div class="ps-header">
+                <span class="ps-bank-name">◆ ONYX</span>
+                <div class="ps-avatar"></div>
+              </div>
+              <div class="ps-balance-label">Saldo disponível</div>
+              <div class="ps-balance">R$ 12.450,00</div>
+              <div class="ps-gold-line"></div>
+              <div class="ps-actions">
+                <div class="ps-action"><span>⚡</span><small>Pix</small></div>
+                <div class="ps-action"><span>↗</span><small>Transferir</small></div>
+                <div class="ps-action"><span>◻</span><small>Pagar</small></div>
+                <div class="ps-action"><span>◈</span><small>Investir</small></div>
+              </div>
+              <div class="ps-recent">
+                <div class="ps-recent-title">Últimas transações</div>
+                <div class="ps-tx"><span class="ps-tx-icon">🛒</span><span class="ps-tx-name">Supermercado Extra</span><span class="ps-tx-val red">-R$ 87,30</span></div>
+                <div class="ps-tx"><span class="ps-tx-icon">⚡</span><span class="ps-tx-name">Pix recebido</span><span class="ps-tx-val green">+R$ 200,00</span></div>
+                <div class="ps-tx"><span class="ps-tx-icon">☕</span><span class="ps-tx-name">Café Noir</span><span class="ps-tx-val red">-R$ 16,50</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="phone-wrapper phone-center">
+          <div class="phone-frame phone-frame-main">
+            <div class="phone-screen chart-screen">
+              <div class="ps-header">
+                <span>← Voltar</span>
+                <span class="ps-bank-name">Gastos</span>
+                <span></span>
+              </div>
+              <div class="ps-month">Março 2026</div>
+              <div class="donut-chart">
+                <svg viewBox="0 0 120 120" width="120" height="120">
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="#1a1a1a" stroke-width="16"/>
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="#C9A84C" stroke-width="16" stroke-dasharray="120 194" stroke-dashoffset="-10" stroke-linecap="round"/>
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="#6B6B6B" stroke-width="16" stroke-dasharray="70 244" stroke-dashoffset="-134" stroke-linecap="round"/>
+                  <circle cx="60" cy="60" r="50" fill="none" stroke="#3A3A3A" stroke-width="16" stroke-dasharray="50 264" stroke-dashoffset="-208" stroke-linecap="round"/>
+                  <text x="60" y="55" text-anchor="middle" fill="rgba(255,255,255,0.4)" font-size="8" font-family="Inter">Total</text>
+                  <text x="60" y="68" text-anchor="middle" fill="white" font-size="10" font-weight="400" font-family="Inter">R$ 1.240</text>
+                </svg>
+              </div>
+              <div class="chart-legend">
+                <div class="legend-item"><span class="legend-dot" style="background:#C9A84C"></span><span>Alimentação</span><strong>R$ 487</strong></div>
+                <div class="legend-item"><span class="legend-dot" style="background:#6B6B6B"></span><span>Transporte</span><strong>R$ 282</strong></div>
+                <div class="legend-item"><span class="legend-dot" style="background:#3A3A3A"></span><span>Lazer</span><strong>R$ 198</strong></div>
+                <div class="legend-item"><span class="legend-dot" style="background:#242424"></span><span>Outros</span><strong>R$ 273</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="phone-wrapper phone-right">
+          <div class="phone-frame">
+            <div class="phone-screen pix-screen">
+              <div class="ps-header">
+                <span>← Voltar</span>
+                <span class="ps-bank-name">Pix</span>
+                <span></span>
+              </div>
+              <div class="pix-label">Para quem você vai transferir?</div>
+              <div class="pix-input-wrapper">
+                <input class="pix-input" placeholder="Chave Pix, CPF, e-mail..." disabled />
+              </div>
+              <div class="pix-contacts-title">Contatos recentes</div>
+              <div class="pix-contact"><div class="pix-av">MS</div><div><div class="pix-name">Maria Santos</div><div class="pix-key">maria@email.com</div></div></div>
+              <div class="pix-contact"><div class="pix-av">CR</div><div><div class="pix-name">Carlos Rodrigues</div><div class="pix-key">012.345.678-90</div></div></div>
+              <div class="pix-contact"><div class="pix-av">AL</div><div><div class="pix-name">Ana Lima</div><div class="pix-key">(11) 98765-4321</div></div></div>
+              <button class="pix-btn">Continuar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="app-stores fade-up">
+        <p>Disponível gratuitamente para</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge" id="ios-badge">
+            <svg width="18" height="18" fill="white" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <div><span class="store-small">Baixar na</span><span class="store-big">App Store</span></div>
+          </a>
+          <a href="#" class="store-badge" id="android-badge">
+            <svg width="18" height="18" fill="white" viewBox="0 0 24 24"><path d="M3.18 23.76c.4.23.88.18 1.29-.09l9.37-5.4-2.33-2.33-8.33 7.82zM20.44 10.41c-.47-.28-9.84-5.68-10.23-5.9-.38-.22-.84-.22-1.22 0l-.01.01 1.78 1.78 9.68 5.59v-.01c.47-.27.47-.97 0-1.47zM2.08 1.54c-.13.2-.08 14.72-.08 14.72l8.33-8.33L2.08 1.54zM12.5 12l2.33 2.33 4.63-2.67c.47-.27.47-.73 0-1l-4.63-2.67L12.5 12z"/></svg>
+            <div><span class="store-small">Disponível no</span><span class="store-big">Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PLANS ===== -->
+  <section class="plans" id="plans">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Planos</div>
+        <span class="luxury-line"></span>
+        <h2>Escolha o que<br /><span class="gradient-text">funciona para você</span></h2>
+        <p>Comece sem custo e evolua conforme sua vida financeira cresce.</p>
+      </div>
+      <div class="plans-grid">
+        <div class="plan-card fade-up" id="plan-free">
+          <div class="plan-badge">Gratuito</div>
+          <div class="plan-icon">◻</div>
+          <h3 class="plan-name">Free</h3>
+          <div class="plan-price">
+            <span class="plan-currency">R$</span>
+            <span class="plan-amount">0</span>
+            <span class="plan-period">/mês</span>
+          </div>
+          <p class="plan-desc">Perfeito para iniciar sua jornada financeira com elegância e zero custo.</p>
+          <ul class="plan-features">
+            <li>Conta digital completa</li>
+            <li>Pix ilimitado 24/7</li>
+            <li>Cartão de débito virtual</li>
+            <li>Cartão de crédito sem anuidade</li>
+            <li>3 saques gratuitos por mês</li>
+          </ul>
+          <a href="#" class="btn btn-ghost btn-block" id="plan-free-cta">Começar Gratuitamente</a>
+        </div>
+
+        <div class="plan-card plan-featured fade-up" id="plan-gold" style="animation-delay:0.15s">
+          <div class="gold-top-border"></div>
+          <div class="plan-badge <gold-badge">Recomendado</div>
+          <div class="plan-icon">◆</div>
+          <h3 class="plan-name">Gold</h3>
+          <div class="plan-price">
+            <span class="plan-currency">R$</span>
+            <span class="plan-amount">19</span>
+            <span class="plan-period">/mês</span>
+          </div>
+          <p class="plan-desc">Para quem quer mais poder, mais limites e mais vantagens exclusivas.</p>
+          <ul class="plan-features">
+            <li>Tudo do Free, mais:</li>
+            <li>10 saques gratuitos por mês</li>
+            <li>Cashback de 1% em compras</li>
+            <li>Suporte prioritário 24/7</li>
+            <li>Limite de crédito elevado</li>
+            <li>Investimentos com taxa zero</li>
+          </ul>
+          <a href="#" class="btn btn-primary btn-block" id="plan-gold-cta">Assinar Gold</a>
+        </div>
+
+        <div class="plan-card fade-up" id="plan-black" style="animation-delay:0.3s">
+          <div class="plan-badge">Elite</div>
+          <div class="plan-icon">◉</div>
+          <h3 class="plan-name">Black</h3>
+          <div class="plan-price">
+            <span class="plan-currency">R$</span>
+            <span class="plan-amount">49</span>
+            <span class="plan-period">/mês</span>
+          </div>
+          <p class="plan-desc">A experiência bancária mais completa e exclusiva do Brasil.</p>
+          <ul class="plan-features">
+            <li>Tudo do Gold, mais:</li>
+            <li>Saques ilimitados gratuitos</li>
+            <li>Cashback de 2% em tudo</li>
+            <li>Cartão Black em metal</li>
+            <li>Concierge financeiro pessoal</li>
+            <li>Acesso a salas VIP em aeroportos</li>
+          </ul>
+          <a href="#" class="btn btn-ghost btn-block" id="plan-black-cta">Quero o Black</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SECURITY ===== -->
+  <section class="security" id="security">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Segurança</div>
+        <span class="luxury-line"></span>
+        <h2>Seu patrimônio<br /><span class="gradient-text">absolutamente protegido</span></h2>
+        <p>Tecnologia bancária de nível institucional para manter seus ativos seguros em qualquer circunstância.</p>
+      </div>
+      <div class="security-grid">
+        <div class="security-card fade-up" id="sec-1">
+          <div class="security-icon">◫</div>
+          <h4>Criptografia Ponta a Ponta</h4>
+          <p>Cada dado e transação são protegidos por criptografia AES-256 de nível militar. Inviolável.</p>
+        </div>
+        <div class="security-card fade-up" id="sec-2" style="animation-delay:0.1s">
+          <div class="security-icon">◼</div>
+          <h4>Garantia FGC</h4>
+          <p>Seus depósitos são cobertos pelo Fundo Garantidor de Créditos até R$ 250 mil por CPF.</p>
+        </div>
+        <div class="security-card fade-up" id="sec-3" style="animation-delay:0.2s">
+          <div class="security-icon">◎</div>
+          <h4>Autenticação Biométrica</h4>
+          <p>Face ID e impressão digital garantem que somente você acessa sua conta, sempre.</p>
+        </div>
+        <div class="security-card fade-up" id="sec-4" style="animation-delay:0.3s">
+          <div class="security-icon">◈</div>
+          <h4>Monitoramento 24/7</h4>
+          <p>Nossa IA detecta atividades suspeitas em tempo real e bloqueia automaticamente qualquer anomalia.</p>
+        </div>
+      </div>
+      <div class="security-badge-row fade-up">
+        <div class="trust-badge">Regulado pelo Banco Central</div>
+        <div class="trust-badge">ISO 27001</div>
+        <div class="trust-badge">PCI DSS Nível 1</div>
+        <div class="trust-badge">100% Brasileiro</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Depoimentos</div>
+        <span class="luxury-line"></span>
+        <h2>Quem escolhe o Onyx<br /><span class="gradient-text">não volta atrás</span></h2>
+      </div>
+      <div class="testimonials-carousel" id="testimonials-container">
+        <div class="testimonials-track" id="testimonials-track">
+          <div class="testimonial-card glass-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <p>"Finalmente um banco que respeita meu dinheiro. Sem anuidade, sem letra miúda. Migrei tudo para o Onyx Bank e não me arrependo nem um pouco."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MA</div>
+              <div>
+                <strong>Mariana Alves</strong>
+                <span>São Paulo, SP</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card glass-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <p>"O Pix funciona a qualquer hora e o atendimento é nota 10. Tive um problema e resolveram em menos de 5 minutos pelo chat. Isso é o que chamo de banco de verdade."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">RL</div>
+              <div>
+                <strong>Rafael Lima</strong>
+                <span>Belo Horizonte, MG</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card glass-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <p>"Comecei a investir pelo app sem saber nada sobre finanças. A interface é tão intuitiva que em 2 meses já tinha uma reserva de emergência consistente."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">CS</div>
+              <div>
+                <strong>Camila Sousa</strong>
+                <span>Curitiba, PR</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card glass-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <p>"O plano Gold transformou minha gestão financeira. Cashback em tudo, limite generoso e suporte que atende na hora. Recomendo a qualquer empreendedor sério."</p>
+            <div class="testimonial-author">
+              <div class="author-avatar">JP</div>
+              <div>
+                <strong>João Pedro Costa</strong>
+                <span>Porto Alegre, RS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-btn" id="prev-btn" aria-label="Anterior">‹</button>
+        <div class="carousel-dots" id="carousel-dots"></div>
+        <button class="carousel-btn" id="next-btn" aria-label="Próximo">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="faq" id="faq">
+    <div class="container faq-container">
+      <div class="section-header fade-up">
+        <div class="section-tag">Perguntas Frequentes</div>
+        <span class="luxury-line"></span>
+        <h2>Dúvidas frequentes</h2>
+        <p>Tudo o que você precisa saber antes de começar.</p>
+      </div>
+      <div class="faq-list fade-up" id="faq-list">
+        <div class="faq-item" id="faq-1">
+          <button class="faq-question" aria-expanded="false">
+            <span>O cartão realmente não tem anuidade?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. O cartão Onyx Bank não cobra anuidade, taxa de emissão ou qualquer mensalidade. A única possível cobrança são juros sobre saldo devedor — algo que você controla inteiramente.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-2">
+          <button class="faq-question" aria-expanded="false">
+            <span>Como funciona o Pix pelo Onyx Bank?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>O Pix no Onyx Bank é 100% gratuito e opera 24 horas por dia, 7 dias na semana, incluindo feriados. Você pode pagar, receber e transferir usando chave Pix, CPF, telefone ou e-mail.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-3">
+          <button class="faq-question" aria-expanded="false">
+            <span>Qual é o limite inicial do cartão de crédito?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>O limite inicial varia de acordo com sua análise de crédito, podendo começar em R$ 300 e crescer progressivamente conforme você utiliza o cartão de forma responsável. Você pode solicitar análise de aumento pelo próprio app.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-4">
+          <button class="faq-question" aria-expanded="false">
+            <span>Posso investir mesmo com pouco dinheiro?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Com toda a certeza. Você pode começar a investir a partir de R$ 1,00 no Onyx Bank. CDBs, Tesouro Direto e fundos selecionados estão disponíveis para todos os perfis, com explicações claras no app.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-5">
+          <button class="faq-question" aria-expanded="false">
+            <span>Meu dinheiro está seguro no Onyx Bank?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutamente. O Onyx Bank é regulado pelo Banco Central do Brasil, com cobertura do Fundo Garantidor de Créditos (FGC) até R$ 250 mil. Criptografia de nível militar em cada operação.</p>
+          </div>
+        </div>
+        <div class="faq-item" id="faq-6">
+          <button class="faq-question" aria-expanded="false">
+            <span>Posso encerrar minha conta quando quiser?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <p>Sim. Você tem liberdade total. O encerramento pode ser realizado diretamente pelo app em menos de 5 minutos, sem burocracia e sem qualquer taxa de cancelamento.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="container cta-content fade-up">
+      <div class="cta-glow"></div>
+      <div class="section-tag">Comece agora</div>
+      <span class="luxury-line"></span>
+      <h2>Pronto para elevar<br /><span class="gradient-text">seu padrão financeiro?</span></h2>
+      <p>Junte-se a mais de 4 milhões de brasileiros que já descobriram o banco que funciona como deveria.</p>
+      <a href="#" class="btn btn-primary btn-xl" id="final-cta">Abrir minha conta agora</a>
+      <div class="cta-note">Gratuito, sem anuidade, sem burocracia — em menos de 5 minutos.</div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo footer-logo">
+            <div class="logo-icon">◆</div>
+            <span class="logo-text">ONYX BANK</span>
+          </a>
+          <p class="footer-tagline">Seu patrimônio, nossa prioridade.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" id="social-instagram" aria-label="Instagram">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-twitter" aria-label="X">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-linkedin" aria-label="LinkedIn">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="#" class="social-link" id="social-youtube" aria-label="YouTube">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-group">
+          <h4>Produto</h4>
+          <ul>
+            <li><a href="#features">Benefícios</a></li>
+            <li><a href="#card">Cartão</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#plans">Planos</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Empresa</h4>
+          <ul>
+            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+            <li><a href="#">Imprensa</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-group">
+          <h4>Suporte</h4>
+          <ul>
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#">Central de Ajuda</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">Ouvidoria</a></li>
+          </ul>
+        </div>
+        <div class="footer-stores">
+          <h4>Baixe o App</h4>
+          <div class="footer-store-badges">
+            <a href="#" class="store-badge store-badge-sm" id="footer-ios">
+              <svg width="15" height="15" fill="white" viewBox="0 0 24 24"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+              <div><span class="store-small">Baixar na</span><span class="store-big">App Store</span></div>
+            </a>
+            <a href="#" class="store-badge store-badge-sm" id="footer-android">
+              <svg width="15" height="15" fill="white" viewBox="0 0 24 24"><path d="M3.18 23.76c.4.23.88.18 1.29-.09l9.37-5.4-2.33-2.33-8.33 7.82zM20.44 10.41c-.47-.28-9.84-5.68-10.23-5.9-.38-.22-.84-.22-1.22 0l-.01.01 1.78 1.78 9.68 5.59v-.01c.47-.27.47-.97 0-1.47zM2.08 1.54c-.13.2-.08 14.72-.08 14.72l8.33-8.33L2.08 1.54zM12.5 12l2.33 2.33 4.63-2.67c.47-.27.47-.73 0-1l-4.63-2.67L12.5 12z"/></svg>
+              <div><span class="store-small">Disponível no</span><span class="store-big">Google Play</span></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="legal">© 2026 Onyx Bank Instituição de Pagamento S.A. CNPJ 00.000.000/0001-00. Autorizado e regulado pelo Banco Central do Brasil. Os depósitos possuem cobertura do Fundo Garantidor de Créditos (FGC). Este é um produto fictício criado para fins de demonstração de portfólio.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
